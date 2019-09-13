@@ -1,20 +1,19 @@
 package Jungle;
 
-import java.util.Scanner;
-
 public class Jungle {
 	String name;		//英雄名字
 	
-	int hp;    			//血量
+	double hp;    			//血量
 	
-	Jungle(String name,int hp)
+	Jungle(String name,double hp)
 	{
-		name = this.name;
-		hp = this.hp;
+		this.name = name;
+		this.hp = hp;
 	}
 	
-	public int take_medicine(int num)
+	public double take_medicine(int num)		//嗑药
 	{
+		
 		for(int i = 0;i < num;i++)
 		{
 			hp *= 2;
@@ -22,35 +21,23 @@ public class Jungle {
 		return hp;
 	}
 	
-	public int fight_dragon(int num)
+	public double fight_dragon(double num)		//打龙
 	{
-		hp = hp - 5*num;
+		hp = 5*num;
 		
 		return hp;
 	}
 	
 	public static void main(String[] args) {
+
+		double i = 1;
 		
-		Scanner in = new Scanner(System.in);
+		Jungle nvjing = new Jungle("nvjing",i);		//新召唤一个女警	
 		
-		System.out.println("请输入龙的伤害：");
-		
-		int num = in.nextInt();
-		
-		int i;
-		
-		for(i = 1;i < 100;i++)
-		{
-			Jungle nvjing = new Jungle("nvjing",i);		//新召唤一个女警	
-			
-			nvjing.hp = nvjing.take_medicine(5);		//女警嗑药;
-			
-			if(0 == nvjing.fight_dragon(num))
-			{
-				break;
-			};
-		}
-		
-		System.out.println("女警开始打龙的时候的血量是" + i);
+		nvjing.hp = nvjing.fight_dragon(1.0) / nvjing.take_medicine(5);	//计算她的初始血量
+	
+		System.out.println("女警开始打龙的时候的血量是" + nvjing.hp);
 	}
+	
+
 }
