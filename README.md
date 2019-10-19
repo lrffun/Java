@@ -1,0 +1,10 @@
+# Java课练习作业
+- 第一次作业
+> [用Java实现运算定积分](https://github.com/lrffun/Java/blob/master/%E7%BB%83%E4%B9%A0%E2%80%94%E5%AE%9A%E7%A7%AF%E5%88%86%E7%9A%84%E8%AE%A1%E7%AE%97/src/Main/Main.java)
+- 第二次作业
+> [女警打野](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/%E5%A5%B3%E8%AD%A6%E6%89%93%E9%87%8E/src/Jungle/Jungle.java)
+> <br>[专家术语学习机](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/%E4%B8%93%E5%AE%B6%E6%9C%AF%E8%AF%AD%E5%AD%A6%E4%B9%A0%E6%9C%BA/src/Studying/Studying.java)
+> <br>[数啤酒瓶童谣](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/%E6%95%B0%E5%95%A4%E9%85%92%E7%93%B6%E7%AB%A5%E8%B0%A3/src/Nursery/Nursery.java)
+> <br>[验证Java越界会怎样](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/Java%E8%B6%8A%E7%95%8C%E4%BC%9A%E6%80%8E%E6%A0%B7%E5%8F%8Alength%E7%9A%84%E4%BD%BF%E7%94%A8.md)
+- 第三次作业（2019/10/9）
+> [复数的四则运算](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/%E5%A4%8D%E6%95%B0%E7%9A%84%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97/src/PluralNumber/Main.java)
