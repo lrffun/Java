@@ -8,3 +8,5 @@
 > <br>[验证Java越界会怎样](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/Java%E8%B6%8A%E7%95%8C%E4%BC%9A%E6%80%8E%E6%A0%B7%E5%8F%8Alength%E7%9A%84%E4%BD%BF%E7%94%A8.md)
 - 第三次作业（2019/10/9）
 > [复数的四则运算](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/%E5%A4%8D%E6%95%B0%E7%9A%84%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97/src/PluralNumber/Main.java)
+- 第四次作业（2019/10/18）
+> [求三角形的面积（异常处理）](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/%E6%B1%82%E4%B8%89%E8%A7%92%E5%BD%A2%E7%9A%84%E9%9D%A2%E7%A7%AF%E5%92%8C%E5%91%A8%E9%95%BF(%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)/src/com/triangle/Areaandperimeter/Triangle.java)
