@@ -11,16 +11,16 @@ public class mySocket {
 		// TODO Auto-generated method stub
 		while(true)
 		{
-			Socket socket = new Socket("127.0.0.1",8080);
+			Socket socket = new Socket("127.0.0.1",8080);					//连接到服务端
 			
 			System.out.println("建立连接成功！！请输入你要传输的数据：");
 			
 			Scanner in = new Scanner(System.in);
 			
-			String f = in.nextLine();
+			String f = in.nextLine();											//输入一段话
 			
-			OutputStream out = (OutputStream) socket.getOutputStream();
-			
+			OutputStream out = (OutputStream) socket.getOutputStream();				//利用输出流输出到服务端
+				
 			out.write(f.getBytes());
 			
 			out.flush();

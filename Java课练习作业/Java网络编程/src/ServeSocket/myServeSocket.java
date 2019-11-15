@@ -12,11 +12,11 @@ public class myServeSocket {
 			// TODO Auto-generated method stub
 			
 					
-				ServerSocket server = new ServerSocket(8080);
+				ServerSocket server = new ServerSocket(8080);  //开个8080端口
 				
 				System.out.println("服务器已启动，等待连接中！");
 			
-				new Thread() {
+				new Thread() {                                  //新建一个线程等待客户端连接
 					public void run() {
 						while(true) {
 							Socket socket;
@@ -25,7 +25,7 @@ public class myServeSocket {
 							
 							System.out.println("接收到客户端请求，开始读取数据");
 														
-							InputStream in;
+							InputStream in;                    //新建输入流读取客户端的输入
 					
 							in = (InputStream) socket.getInputStream();
 				
@@ -33,7 +33,7 @@ public class myServeSocket {
 							
 							int length = 0;
 							
-							while((length = in.read(buff))!=-1)
+							while((length = in.read(buff))!=-1)     //利用错误打印（没有缓存）
 							{
 								System.err.println(new String(buff,0,length));
 							}
@@ -44,7 +44,7 @@ public class myServeSocket {
 					}
 				}.start();
 				new Thread() {
-					public void run() {
+					public void run() {        //新建一个线程，令服务器在运行期间做其他事
 						for(int i = 100;i > 0;i--) {
 						System.out.println("我服务器正在做别的事！");
 						System.out.println("倒计时:"+i);
