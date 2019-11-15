@@ -16,3 +16,7 @@
 - 第七次作业（Thread线程练习）
 > [Thread第一次课的作业](https://github.com/lrffun/Java/tree/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/Thread%E5%AD%A6%E4%B9%A0/src/FirstTest)
 > <br>[Thread第二次课的作业](https://github.com/lrffun/Java/tree/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/Thread%E5%AD%A6%E4%B9%A0/src/SecondTest)
+- 第八次作业(java网络编程)
+> [服务端](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/Java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/ServeSocket/myServeSocket.java)<br>
+> [客户端](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/Java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/Socket/mySocket.java)<br>
+> 我将客户端和服务端分两个包裹位置放，并且为了便于调试，还将服务端用eclipse运行，客户端用命令行运行。
