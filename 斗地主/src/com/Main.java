@@ -136,7 +136,7 @@ public class Main extends JFrame implements ActionListener {
 	// 初始化窗体
 	public void Init() {
 
-		this.setTitle("斗地主游戏---陈悦馨");
+		this.setTitle("斗地主游戏---郎瑞峰");
 		this.setSize(830, 620);
 		setResizable(false);
 		setLocationRelativeTo(getOwner()); // 屏幕居中
@@ -260,7 +260,6 @@ public class Main extends JFrame implements ActionListener {
 					flag=1;//表示可以出牌
 			}//如果我跟牌
 			else{
-			
 				flag=Common.checkCards(c,currentList);
 			}
 			//判断是否符合出牌

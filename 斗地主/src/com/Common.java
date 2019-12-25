@@ -183,8 +183,7 @@ public class Common {
 			Common.move(card, card.getLocation(), p,10);
 			m.container.setComponentZOrder(card, 0);
 			if(flag==1)p.x+=21;
-			else p.y+=15;
-			
+			else p.y+=15;	
 		}
 	}
 	//地主牌权值，看是否抢地主
