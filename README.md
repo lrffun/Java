@@ -20,3 +20,5 @@
 > [服务端](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/Java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/ServeSocket/myServeSocket.java)<br>
 > [客户端](https://github.com/lrffun/Java/blob/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/Java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/src/Socket/mySocket.java)<br>
 > 我将客户端和服务端分两个包裹位置放，并且为了便于调试，还将服务端用eclipse运行，客户端用命令行运行。
+- 第二次上机练习（Java对象序列化）
+> [Java对象序列化](https://github.com/lrffun/Java/tree/master/Java%E8%AF%BE%E7%BB%83%E4%B9%A0%E4%BD%9C%E4%B8%9A/Java%E5%AF%B9%E8%B1%A1%E5%BA%8F%E5%88%97%E5%8C%96%EF%BC%88%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%B8%8A%E6%9C%BA%E7%BB%83%E4%B9%A0%EF%BC%89/src/Students)
